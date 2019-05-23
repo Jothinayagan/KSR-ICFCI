@@ -1,0 +1,272 @@
+	<!DOCTYPE HTML>
+<!--
+	Spectral by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>ICFCI</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+	</head>
+	<body>
+
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<h1><a href="index.html">ICFCI’18</a></h1>
+						<nav id="nav">
+							<ul>
+								<li class="special">
+									<a href="#menu" class="menuToggle"><span>Menu</span></a>
+									<div id="menu">
+										<ul>
+											<li><a href="index.html">Home</a></li>
+											<li><a href="register.html">Register</a></li>
+											<li><a href="aboutus.html">About us</a></li>
+											<!--	<li><a href="signup.html">Sign Up</a></li>
+											<li><a href="login.html">Log In</a></li> -->
+										</ul>
+									</div>
+								</li>
+							</ul>
+						</nav>
+					</header>
+
+				<!-- Main -->
+					<article id="main">
+					<!--	<header>
+							<h2>Registration</h2>
+							<p>Aliquam ut ex ut interdum donec amet imperdiet eleifend</p>
+						</header> -->
+						<section class="wrapper style5">
+							<div class="inner">
+
+								
+								
+								<section>
+									<h4><center>Registration</center></h4>
+									<form method="post" action="DB.php">
+										<div class="row uniform">
+
+											<div class="6u 12u$(xsmall)">
+												<input type="text" name="fname" id="fname" value="" placeholder="First Name" />
+											</div>
+											<div class="6u$ 12u$(xsmall)">
+												<input type="text" name="lname" id="lname" value="" placeholder="Last Name" />
+											</div>
+											<div class="4u$(xsmall)">
+												<!--<input type="radio" id="demo-priority-low" name="demo-priority" checked>-->
+												<label>Gender</label>
+											</div>
+											<div class="4u$(xsmall)">
+												<input type="radio" id="male" name="gender" value="Male">
+												<label for="male">Male</label>
+											</div>
+											<div class="2u$(xsmall)">
+												<input type="radio" id="female" name="gender" value="Female">
+												<label for="female">Female</label>
+											</div>
+											<div class="12u$">
+												<input type="text" name="org" id="org" value="" placeholder="Organisation" />
+											</div>
+											<div class="6u 12u$(xsmall)">
+												<input type="text" name="pos" id="pos" value="" placeholder="Position" />
+											</div>
+											<div class="6u$ 12u$(xsmall)">
+												<div class="select-wrapper">
+													<select name="category" id="category">
+														<option value="">Category of Registration</option>
+														<option value="Industry">Industry</option>
+														<option value="Post Doctrate">Post Doctrate</option>
+														<option value="Research Scholar">Research Scholar</option>
+														<option value="Academic">Academic</option>
+														<option value="PG Student">PG Student</option>
+														<option value="UG Student">UG Student</option>
+													</select>
+												</div>
+												<!--<input type="" name="year" id="year" value="" placeholder="Year" />-->
+											</div>
+											
+											<div class="6u 12u$(xsmall)">
+												<input type="text" name="pno" id="pno" value="" placeholder="Phone Number" />
+											</div>
+											<div class="6u$ 12u$(xsmall)">
+												<input type="text" name="fno" id="fno" value="" placeholder="Fax" />
+											</div>
+											<div class="6u 12u$(xsmall)">
+												<input type="text" name="email" id="email" value="" placeholder="Email" />
+											</div>
+											<div class="6u 12u$(xsmall)">
+												<input type="text" name="title" id="title" value="" placeholder="Title of the Paper" />
+											</div>
+											
+										
+											<div class="12u$">
+												<!--<input type="radio" id="demo-priority-low" name="demo-priority" checked>-->
+												<label>I/We would like to</label>
+											</div>
+											<div class="6u 12u$(xsmall)">
+												<input type="radio" id="Present" name="purpose" value="Present a Paper">
+												<label for="Present">Present a Paper</label>
+											
+												<input type="radio" id="Attent" name="purpose" value="Attend the Conference">
+												<label for="Attent">Attend the Conference</label>
+											</div>
+											
+											<div class="12u$">
+												<!--<input type="radio" id="demo-priority-low" name="demo-priority" checked>-->
+											<label>Accomodation</label>
+											</div>
+											<div class="6u 12u$(xsmall)">
+												<input type="radio" id="yes" name="acc" value="Yes">
+												<label for="yes">yes</label>
+												<input type="radio" id="no" name="acc" value="No">
+												<label for="no">no</label>
+											</div>
+											
+											<div class="6u 12u$(xsmall)">
+											<div class="select-wrapper">
+													<select name="accmod" id="accmod">
+														<option value="">Select if yes</option>
+														<option value="Hotel">Hotel</option>
+														<option value="Hostel">Hostel</option>
+													</select>
+											</div>
+											</div>
+
+										
+											<div class="12u$">
+												<!--<input type="radio" id="demo-priority-low" name="demo-priority" checked>-->
+											<label>Post Conference Tour</label>
+											</div>
+											<div class="6u 12u$(xsmall)">
+												<input type="radio" id="intrested" name="tour" value="Intrested">
+												<label for="intrested">Intrested</label>
+												<input type="radio" id="notintrested" name="tour" value="Not Intrested">
+												<label for="notintrested">Not Intrested</label>
+											</div>
+																
+											<div class="12u$">
+												<!--<input type="radio" id="demo-priority-low" name="demo-priority" checked>-->
+											<label>Payment Mode</label>
+											<div class="6u 12u$(xsmall)">
+                                             <div class="select-wrapper">
+													<select name="paymod" id="paymod">
+														<option value="">Select</option>
+														<option value="Demand Draft">Demand Draft</option>
+														<option value="Electronic Fund Transfer">Electronic Fund Transfer</option>
+														<option value="Swift Transfer">Swift Transfer</option>
+													</select>
+											</div>  			
+											</div> 
+											</div> 	
+
+											<div class="12u$">
+												<!--<input type="radio" id="demo-priority-low" name="demo-priority" checked>-->
+											<label>Payment Details</label>
+											</div>
+											<div class="6u 12u$(xsmall)">
+												<input type="text" name="amt" id="amt" value="" placeholder="Amount" />
+											</div>
+											<div class="6u 12u$(xsmall)">
+												<input type="text" name="ddno" id="ddno" value="" placeholder="DD Number" />
+											</div>
+											<div class="6u 12u$(xsmall)">
+												<input type="text" name="txref" id="txref" value="" placeholder="Transaction ID Reference No" />
+											</div>
+											<div class="6u 12u$(xsmall)">
+												<input type="text" name="bank" id="bank" value="" placeholder="Bank" />
+											</div>
+											<div class="6u 12u$(xsmall)">
+												<input type="text" name="date" id="date" value="" placeholder="DD/MM/YYYY" />
+											</div>
+											
+											
+											
+											<div class="12u$">
+												<input type="checkbox" id="tc" name="tc" checked>
+												<label for="tc">I agree Terms and Conditions</label>
+											</div>
+											
+											<!--<div class="12u$">
+												<div class="select-wrapper">
+													<select name="demo-category" id="demo-category">
+														<option value="">- Category -</option>
+														<option value="1">Manufacturing</option>
+														<option value="1">Shipping</option>
+														<option value="1">Administration</option>
+														<option value="1">Human Resources</option>
+													</select>
+												</div>
+											</div>
+											<div class="4u 12u$(small)">
+												<input type="radio" id="demo-priority-low" name="demo-priority" checked>
+												<label for="demo-priority-low">Low</label>
+											</div>
+											<div class="4u 12u$(small)">
+												<input type="radio" id="demo-priority-normal" name="demo-priority">
+												<label for="demo-priority-normal">Normal</label>
+											</div>
+											<div class="4u$ 12u$(small)">
+												<input type="radio" id="demo-priority-high" name="demo-priority">
+												<label for="demo-priority-high">High</label>
+											</div>
+											<div class="6u 12u$(small)">
+												<input type="checkbox" id="demo-copy" name="demo-copy">
+												<label for="demo-copy">Email me a copy</label>
+											</div>
+											<div class="6u$ 12u$(small)">
+												<input type="checkbox" id="demo-human" name="demo-human" checked>
+												<label for="demo-human">Not a robot</label>
+											</div>
+											<div class="12u$">
+												<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
+											</div>-->
+											<div class="12u$">
+												<ul class="actions">
+													<center><li><input type="submit" value="Submit" class="special" /></li>
+													<li><input type="reset" value="Reset" /></li></center>
+												</ul>
+											</div>
+										</div>
+									</form>
+								</section>
+
+							
+					</article>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<ul class="icons">
+							<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+							<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+							<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
+							<li><a href="#" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+						</ul>
+						<ul class="copyright">
+							<li>&copy; Copyright</li><li><a href="http://html5up.net">Department of Information Technology</a></li>
+						</ul>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
